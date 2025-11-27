@@ -50,10 +50,10 @@ export const projectsDisplayed: Project[] = [
     },
     { 
         id: 4, 
-        title: "Project 4", 
+        title: "PingPoint App", 
         image: "",
-        description: "A web application showcasing the beauty of Project 4.",
-        liveLink: "https://example.com/project4",
-        sourceCode: "https://github.com/example/project4"
+        description: "Social community networking app ",
+        liveLink: "https://dev-www.pingpoint.app/",
+        sourceCode: ""
     }
 ];

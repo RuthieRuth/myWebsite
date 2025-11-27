@@ -1,5 +1,6 @@
 import profilepix from "../assets/profilepix.jpeg";
 import { IoMdDownload } from "react-icons/io";
+import { GrFormView } from "react-icons/gr";
 
 function About() {
   return (
@@ -43,12 +44,12 @@ function About() {
       <div className="mt-10 flex justify-center gap-4">
         {/* View Resume */}
         <a
-          href="/CV_Asafu-Adjaye_Ruth.pdf"
+          href="/CV_(Asafu-Adjaye-Ruth).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300 hover:shadow-xl transform hover:-translate-y-1 font-medium"
         >
-          <IoMdDownload className="text-2xl" />
+          <GrFormView className="text-2xl" />
           <span className="text-lg">View Resume</span>
           <span className="text-sm opacity-80">(PDF)</span>
         </a>
