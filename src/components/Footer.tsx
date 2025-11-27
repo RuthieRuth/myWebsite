@@ -1,7 +1,9 @@
 function Footer() {
   return (
-    <div className="flex items-center justify-center bg-primary-blue text-white py-8 mt-20">
-      <p className="text-lg font-medium">&copy; DESIGNED BY RUTH A.A 2024</p>
+    <div className="border-t border-accent-blue">
+      <div className="flex justify-between items-center px-4 sm:px-10 lg:px-20 py-4">
+        <p className="text-lg font-medium">&copy; DESIGNED BY RUTH A.A 2024</p>
+      </div>
     </div>
   );
 }
