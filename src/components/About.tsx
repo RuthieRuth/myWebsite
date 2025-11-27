@@ -36,7 +36,7 @@ function About() {
           <img
             src={profilepix}
             alt="personal picture"
-            className="w-80 h-80 rounded-full object-cover shadow-xl border-4 border-accent-blue hover-lift"
+            className="w-80 h-80 rounded-full object-cover shadow-xl border-4 border-blue-800 hover-lift"
           />
         </div>
       </div>
