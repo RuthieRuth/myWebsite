@@ -7,7 +7,6 @@ import worldCountries from "../assets/worldCountries.jpg";
 
 import { projectsDisplayed } from "../data-assets/data";
 
-
 interface Project {
   id: number;
   title: string;
@@ -42,20 +41,24 @@ function Projects() {
 
   return (
     <>
-      <div className="container mx-auto px-4 max-w-6xl h-screen">
-        <h2 className="text-4xl font-bold text-center my-20">Projects</h2>
+      <div className="container mx-auto px-4 max-w-6xl h-auto md:h-screen pb-8 md:pb-2">
+        <h2 className="text-2xl md:text-4xl font-bold text-center my-8 md:my-20">
+          Projects
+        </h2>
 
         <div className={`${open ? "blur-sm" : ""}`}>
           <div className="grid grid-flow-col grid-rows-3 gap-4 min-h-96 w-full">
-
             {/* project 1 */}
             <div
               className="row-span-2 flex flex-col items-center justify-center relative overflow-hidden rounded-xl"
-              onClick={() => singleProject({ 
-                id: 1, 
-                title: projectsDisplayed[0].title, 
-                description: projectsDisplayed[0].description,
-                liveLink: projectsDisplayed[0].liveLink})}
+              onClick={() =>
+                singleProject({
+                  id: 1,
+                  title: projectsDisplayed[0].title,
+                  description: projectsDisplayed[0].description,
+                  liveLink: projectsDisplayed[0].liveLink,
+                })
+              }
             >
               <img
                 src={independenceSquare}
@@ -70,11 +73,14 @@ function Projects() {
             {/* project 2 */}
             <div
               className="col-span-3 flex items-center justify-center relative overflow-hidden rounded-xl"
-              onClick={() => singleProject({ 
-                id: 2, 
-                title: projectsDisplayed[1].title, 
-                description: projectsDisplayed[1].description,
-                liveLink: projectsDisplayed[1].liveLink})}
+              onClick={() =>
+                singleProject({
+                  id: 2,
+                  title: projectsDisplayed[1].title,
+                  description: projectsDisplayed[1].description,
+                  liveLink: projectsDisplayed[1].liveLink,
+                })
+              }
             >
               <img
                 src={adomi}
@@ -89,12 +95,14 @@ function Projects() {
             {/* project 3 */}
             <div
               className="col-span-2 row-span-2 bg-blue-50 flex items-center justify-center relative rounded-xl"
-              onClick={() => singleProject({ 
-                id: 3, 
-                title: projectsDisplayed[2].title, 
-                description: projectsDisplayed[2].description,
-                liveLink: projectsDisplayed[2].liveLink
-              })}
+              onClick={() =>
+                singleProject({
+                  id: 3,
+                  title: projectsDisplayed[2].title,
+                  description: projectsDisplayed[2].description,
+                  liveLink: projectsDisplayed[2].liveLink,
+                })
+              }
             >
               <img
                 src={worldCountries}
@@ -109,12 +117,14 @@ function Projects() {
             {/* project 4 */}
             <div
               className="col-span-2 row-span-3 bg-blue-50 flex items-center justify-center relative rounded-xl"
-              onClick={() => singleProject({ 
-                id: 4, 
-                title: projectsDisplayed[3].title, 
-                description: projectsDisplayed[3].description,
-                liveLink: projectsDisplayed[3].liveLink
-              })}
+              onClick={() =>
+                singleProject({
+                  id: 4,
+                  title: projectsDisplayed[3].title,
+                  description: projectsDisplayed[3].description,
+                  liveLink: projectsDisplayed[3].liveLink,
+                })
+              }
             >
               04
             </div>
@@ -133,16 +143,14 @@ function Projects() {
               {selectedProject?.title}
             </h3>
             <div>
-              <p className="mb-7">
-                {selectedProject?.description}
-              </p>
+              <p className="mb-7">{selectedProject?.description}</p>
               <div className="flex gap-10">
                 <div className="flex gap-10">
                   {selectedProject?.liveLink && (
-                    <a 
-                      href={selectedProject.liveLink} 
-                      target="_blank"  // Opens in new tab
-                      rel="noopener noreferrer"  // Security best practice
+                    <a
+                      href={selectedProject.liveLink}
+                      target="_blank" // Opens in new tab
+                      rel="noopener noreferrer" // Security best practice
                       className="text-blue-500 hover:underline"
                     >
                       live link
@@ -152,7 +160,8 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>)}
+        </div>
+      )}
     </>
   );
 }

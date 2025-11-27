@@ -4,18 +4,20 @@ import { GrFormView } from "react-icons/gr";
 
 function About() {
   return (
-    <div className="mx-auto px-4 max-w-6xl h-screen container py-4">
-      <h2 className="text-4xl font-bold text-center my-4">About Me</h2>
-      <div className="grid grid-cols-2 gap-16 mx-auto items-center px-18">
+    <div className="mx-auto px-4 max-w-6xl h-auto md:h-screen container py-4 pb-8 md:pb-20">
+      <h2 className="text-2xl md:text-4xl font-bold text-center my-4">
+        About Me
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mx-auto items-center px-4 md:px-18">
         <div className="space-y-4">
-          <p className="text-justify text-lg text-text-dark leading-relaxed">
+          <p className="text-justify text-base md:text-lg text-text-dark leading-relaxed">
             Hello, I'm Ruth, a web developer based in Finland. My journey into
             tech began with a creative foundation in textiles, where I learned
             to combine detail, structure, and design thinking. Over time, that
             curiosity evolved into a passion for crafting engaging and impactful
             digital experiences.
           </p>
-          <p className="text-justify text-lg text-text-dark leading-relaxed">
+          <p className="text-justify text-base md:text-lg text-text-dark leading-relaxed">
             I bring a unique perspective to web development, blending
             functionality with aesthetics to create solutions that are not only
             practical but also visually appealing and intuitive. With a
@@ -23,7 +25,7 @@ function About() {
             turning ideas into products that make people's lives easier and more
             enjoyable.
           </p>
-          <p className="text-justify text-lg text-text-dark leading-relaxed">
+          <p className="text-justify text-base md:text-lg text-text-dark leading-relaxed">
             Beyond code, I value collaboration, continuous learning, and
             building tools that truly resonate with users. My diverse background
             spans from technical development to customer service and team
@@ -36,12 +38,12 @@ function About() {
           <img
             src={profilepix}
             alt="personal picture"
-            className="w-80 h-80 rounded-full object-cover shadow-xl border-4 border-blue-800 hover-lift"
+            className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-xl border-4 border-blue-800 hover-lift"
           />
         </div>
       </div>
 
-      <div className="mt-10 flex justify-center gap-4">
+      <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
         {/* View Resume */}
         <a
           href="/CV_(Asafu-Adjaye-Ruth).pdf"

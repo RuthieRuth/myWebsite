@@ -3,11 +3,11 @@ import { SiJavascript, SiTypescript } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className="container mx-auto px-4 max-w-6xl h-screen py-20">
-      <h2 className="text-4xl font-bold text-center text-primary-blue mb-20">
+    <div className="container mx-auto px-4 max-w-6xl h-auto md:h-screen pt-8 md:pt-2 pb-8 md:pb-2">
+      <h2 className="text-2xl md:text-4xl font-bold text-center text-primary-blue mb-8 md:mb-20">
         Tech Stack
       </h2>
-      <div className="flex flex-wrap justify-center gap-12">
+      <div className="flex flex-wrap justify-center gap-6 md:gap-12">
         <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover-lift border border-accent-blue">
           <FaHtml5 className="text-8xl text-orange-500 mb-4" />
           <p className="text-lg font-medium text-text-dark">HTML</p>

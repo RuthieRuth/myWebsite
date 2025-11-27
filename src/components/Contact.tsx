@@ -2,8 +2,8 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="container mx-auto px-4 max-w-6xl h-screen py-20">
-      <h2 className="text-4xl font-bold text-center text-primary-blue mb-20">
+    <div className="container mx-auto px-4 max-w-6xl h-auto md:h-screen pt-8 md:pt-2 pb-8 md:pb-20">
+      <h2 className="text-2xl md:text-4xl font-bold text-center text-primary-blue mb-8 md:mb-20">
         Contact
       </h2>
 
