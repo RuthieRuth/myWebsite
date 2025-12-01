@@ -33,7 +33,7 @@ function HeroSection() {
     </p>
 
     <div className="flex flex-row gap-2 sm:gap-4 items-center">
-      <h1 className="text-2xl sm:text-4xl lg:text-6xl text-text-dark">a</h1>
+      {/* <h1 className="text-2xl sm:text-4xl lg:text-6xl text-text-dark">a</h1> */}
 
       <h1 className="text-3xl sm:text-5xl lg:text-6xl text-secondary-blue font-semibold">
         {whoAmI[index]?.title}
