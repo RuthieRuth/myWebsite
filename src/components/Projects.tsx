@@ -48,10 +48,10 @@ function Projects() {
         </h2>
 
         <div className={`${open ? "blur-sm" : ""}`}>
-          <div className="grid grid-flow-col grid-rows-3 gap-4 min-h-96 w-full">
+          <div className="grid grid-flow-col grid-rows-3 gap-4 min-h-96 w-full ">
             {/* project 1 */}
             <div
-              className="row-span-2 flex flex-col items-center justify-center relative overflow-hidden rounded-xl"
+              className="row-span-2 flex flex-col items-center justify-center relative overflow-hidden rounded-xl border-2 border-blue-500 "
               onClick={() =>
                 singleProject({
                   id: 1,
@@ -73,7 +73,7 @@ function Projects() {
 
             {/* project 2 */}
             <div
-              className="col-span-3 flex items-center justify-center relative overflow-hidden rounded-xl"
+              className="col-span-3 flex items-center justify-center relative overflow-hidden rounded-xl border-2 border-blue-500"
               onClick={() =>
                 singleProject({
                   id: 2,
@@ -95,7 +95,7 @@ function Projects() {
 
             {/* project 3 */}
             <div
-              className="col-span-2 row-span-2 bg-blue-50 flex items-center justify-center relative rounded-xl"
+              className="col-span-2 row-span-2 bg-blue-50 flex items-center justify-center relative rounded-xl border-2 border-blue-500"
               onClick={() =>
                 singleProject({
                   id: 3,
@@ -117,7 +117,7 @@ function Projects() {
 
             {/* project 4 */}
             <div
-              className="col-span-2 row-span-3 bg-blue-50 flex items-center justify-center relative rounded-xl"
+              className="col-span-2 row-span-3 bg-blue-50 flex items-center justify-center relative rounded-xl border-2 border-blue-500"
               onClick={() =>
                 singleProject({
                   id: 4,
