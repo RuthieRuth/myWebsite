@@ -1,6 +1,7 @@
 import independenceSquare from "../assets/independenceSquare.jpg";
-import adomi from "../assets/adomi.jpg";
 import worldCountries from "../assets/worldCountries.jpg";
+import IllusiaRy from "../assets/IllusiaRy.jpg";
+import PingPoint from "../assets/PingPoint.jpg";
 
 interface WhoAmI {
     id: number;
@@ -34,11 +35,11 @@ export const projectsDisplayed: Project[] = [
      },
     { 
         id: 2, 
-        title: "Project 2", 
-        image: adomi,
-        description: "A web application showcasing the beauty of Adomi Bridge.",
-        liveLink: "https://example.com/project2",
-        sourceCode: "https://github.com/example/project2"
+        title: "Illusia Ry", 
+        image: IllusiaRy,
+        description: "A web-based inventory management system designed to track equipment, props, and items loaned out to LARP (Live Action Role Playing) members.",
+        liveLink: "https://www.youtube.com/watch?v=YHO-g_TCN44&list=PLeIi_6AJN14Tny5sNTIE14gZJujwqRcxV&index=2",
+        sourceCode: "http://github.com/RuthieRuth/illusia-project/tree/main"
     },
     { 
         id: 3, 
@@ -46,14 +47,14 @@ export const projectsDisplayed: Project[] = [
         image: worldCountries,
         description: "Countries in the world.",
         liveLink: "https://noeurcountries.netlify.app/",
-        sourceCode: "https://github.com/example/project3"
+        sourceCode: "https://github.com/RuthieRuth/World-Countries"
     },
     { 
         id: 4, 
         title: "PingPoint App", 
-        image: "",
+        image: PingPoint,
         description: "Social community networking app ",
-        liveLink: "https://dev-www.pingpoint.app/",
+        liveLink: "https://www.pingpoint.app/",
         sourceCode: ""
     }
 ];

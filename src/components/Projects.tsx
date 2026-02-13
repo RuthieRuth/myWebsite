@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 
 import independenceSquare from "../assets/independenceSquare.jpg";
-import adomi from "../assets/adomi.jpg";
 import worldCountries from "../assets/worldCountries.jpg";
+import IllusiaRy from "../assets/IllusiaRy.jpg";
+import PingPoint from "../assets/PingPoint.jpg";
 
 import { projectsDisplayed } from "../data-assets/data";
 
@@ -83,12 +84,12 @@ function Projects() {
               }
             >
               <img
-                src={adomi}
+                src={IllusiaRy}
                 alt="adomi"
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <span className="relative z-10 bg-black bg-opacity-50 text-white px-4 py-2 rounded">
-                project 2
+                Illusia Ry
               </span>
             </div>
 
@@ -126,7 +127,14 @@ function Projects() {
                 })
               }
             >
-              04
+               <img
+                src={PingPoint}
+                alt="pingpoint"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <span className="relative z-10 bg-black bg-opacity-50 text-white px-4 py-2 rounded">
+                PingPoint App
+              </span>
             </div>
           </div>
         </div>
@@ -153,7 +161,7 @@ function Projects() {
                       rel="noopener noreferrer" // Security best practice
                       className="text-blue-500 hover:underline"
                     >
-                      live link
+                      Live link
                     </a>
                   )}
                 </div>
