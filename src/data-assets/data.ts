@@ -45,7 +45,7 @@ export const projectsDisplayed: Project[] = [
         id: 3, 
         title: "World Countries", 
         image: worldCountries,
-        description: "Countries in the world.",
+        description: "Discover the world with our interactive country explorer! Search and learn about countries worldwide. Powered by REST Countries API.",
         liveLink: "https://noeurcountries.netlify.app/",
         sourceCode: "https://github.com/RuthieRuth/World-Countries"
     },
