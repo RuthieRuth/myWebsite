@@ -46,7 +46,7 @@ function About() {
       <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
         {/* View Resume */}
         <a
-          href="/Ruth_Asafu-Adjaye(CV).pdf"
+          href="/CV_(Asafu-Adjaye-Ruth).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300 hover:shadow-xl transform hover:-translate-y-1 font-medium"
@@ -57,7 +57,7 @@ function About() {
         </a>
         {/* Download Resume */}
         <a
-          href="/Ruth_Asafu-Adjaye(CV).pdf"
+          href="/CV_(Asafu-Adjaye-Ruth).pdf"
           download
           className="flex items-center gap-3 px-6 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors duration-300 hover:shadow-xl transform hover:-translate-y-1 font-medium"
         >
